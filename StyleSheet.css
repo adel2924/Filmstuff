@@ -2,10 +2,11 @@
 input[type=text] {
     width: 130px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: 3px solid #ccc;
     border-radius: 4px;
-    border-color: #800000;
+    border-color: #000000;
     font-size: 16px;
+    font-family: 'Times New Roman';
     background-color: white;
     background-image: url('search.png');
     background-size:20px 20px;
@@ -30,6 +31,10 @@ input[type=text] {
 }*/
 
   /* Navigation bar */
+
+  .home {
+      font:"Times New Roman";
+  }
   ul {
     list-style-type: none;
     margin: 0;
@@ -40,6 +45,8 @@ input[type=text] {
     background-color: #333;
   }
   
+
+
   li {
     float: left;
   }
@@ -53,7 +60,7 @@ input[type=text] {
   }
   
   li a:hover, .dropdown:hover .dropbtn {
-    background-color: #800000;
+    background-color: #e0ac1c;
   }
   
   li.dropdown {
@@ -144,6 +151,8 @@ input[type=text] {
   .footer-distributed .footer-right{
     display: inline-block;
     vertical-align: top;
+    font: 
+    
   }
    
   /* Footer left */
@@ -289,6 +298,7 @@ input[type=text] {
       width: 100%;
       margin-bottom: 40px;
       text-align: center;
+      font: 'Times New Roman';
     }
    
     .footer-distributed .footer-center i{
